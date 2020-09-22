@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://www.colourbox.com/account/details", true);
+  xhttp.open("GET", "https://www.colourbox.com/rest/identity", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
